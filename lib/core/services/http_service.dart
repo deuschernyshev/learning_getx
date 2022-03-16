@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:learning_getx/api_endpoints.dart';
 import 'package:learning_getx/constants.dart';
+import 'package:learning_getx/core/utils/api_endpoints.dart';
 
 class HttpService {
   late final Dio _dio;

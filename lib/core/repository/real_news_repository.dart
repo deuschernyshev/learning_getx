@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:learning_getx/api_endpoints.dart';
 import 'package:learning_getx/core/models/article/article.dart';
 import 'package:learning_getx/core/models/news_response_model.dart/news_response_model.dart';
 import 'package:learning_getx/core/repository/news_repository.dart';
 import 'package:learning_getx/core/services/http_service.dart';
+import 'package:learning_getx/core/utils/api_endpoints.dart';
 
 class RealNewsRepository implements NewsRepository {
   late final HttpService _httpService;
